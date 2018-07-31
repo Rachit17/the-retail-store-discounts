@@ -1,5 +1,7 @@
 package com.app.retailstore.controller;
 
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +47,7 @@ public class InvoiceController {
 	
 	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/invoice/", method = RequestMethod.POST)
-    public ResponseEntity<?> getNetPayable(@RequestBody Invoice invoice, UriComponentsBuilder ucBuilder) {
+    public ResponseEntity<?> getNetPayable(@Valid @RequestBody Invoice invoice, UriComponentsBuilder ucBuilder) {
 		   
 	        logger.info("Creating Invoice : {}", invoice);
 	        

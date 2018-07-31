@@ -2,11 +2,20 @@ package com.app.retailstore.model;
 
 import java.util.Set;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+
 public class Invoice {
 	
+	@NotNull
+	@Min(1)
 	private long invoiceId;
+	@NotNull
+	@Min(1)
 	private long userId;
+	@NotNull
 	private Set<Long> items;
+	@NotNull
 	private Double amount;
 	
 	
