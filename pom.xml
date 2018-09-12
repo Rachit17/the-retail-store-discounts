@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.app</groupId>
-	<artifactId>TheRetailStore</artifactId>
+	<artifactId>theretailstore</artifactId>
 	<version>0.0.1</version>
 
-	<name>TheRetailStore</name>
+	<name>theretailstore</name>
 	<description>The Retail Store Discounts project in Spring Boot</description>
 
 	<parent>
