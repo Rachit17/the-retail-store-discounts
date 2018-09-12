@@ -58,6 +58,7 @@
 			      <phase>package</phase>
 			      <goals>
 				<goal>build</goal>
+				<goal>push</goal>
 			      </goals>
 				    <configuration>
 				       <repository>${docker.image.prefix}/${project.artifactId}</repository>
