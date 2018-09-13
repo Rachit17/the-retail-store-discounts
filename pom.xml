@@ -62,7 +62,7 @@
 				<goal>push</goal>
 			      </goals>
 				    <configuration>
-				       <repository>${docker.repo.url}/{docker.image.prefix}</repository>
+				       <repository>${docker.repo.url}/${docker.image.prefix}</repository>
 					<resources>
 					    <resource>
 						<targetPath>/</targetPath>
